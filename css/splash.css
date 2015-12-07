@@ -54,6 +54,22 @@ html, body{ height: 100%; }
  text-align: center;
 }
 
+#press {
+  background-color: #000000;
+  text-align: center;
+  color: white;
+}
+
+#press h2 {
+  padding-bottom: 3em;	
+  color: #009ec1;
+  font-weight: lighter;
+}
+
+#press img {
+  padding-top: 1em;
+}
+
 #traction {
   background-color: #7d7d7d;
  color: white;}
