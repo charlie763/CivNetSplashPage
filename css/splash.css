@@ -1,0 +1,131 @@
+html, body{ height: 100%; }
+
+
+#splash { color: #888; background-color: white; }
+#splash a { 
+  color: #888; 
+  display: inline-block;
+  border: 1px solid #009ec1;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+#splash a:link,
+#splash a:visited {
+  text-decoration: none;
+}
+
+#splash a:hover,
+#splash a:active {
+  text-decoration: none;
+  color: #009ec1;
+}
+
+#splash div {
+  text-align: center;
+}
+
+
+#splash h2{
+  font-weight: lighter;
+}
+
+#splash .glyphicon {
+  font-size 30px;
+}
+
+#splash img { margin-left: 11%; margin-bottom: 2em;}
+
+#intro {
+  background-color: #f0f0f0;
+}
+#how {
+  background-color: #7d7d7d;
+ color: white;}
+
+#how a { color: #23527c; }
+#beta {
+  background-color: #00b8da; color: white;
+}
+
+
+#team {
+  background-color: #f0f0f0;
+ text-align: center;
+}
+
+#traction {
+  background-color: #7d7d7d;
+ color: white;}
+
+
+#traction a { color: #23527c; }
+
+
+.panetron .pt-section {
+  padding-top: 10em;
+}
+
+
+
+#faq {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+.panetron {
+  min-height: 100%;
+  margin-bottom: -5em;
+  padding-top: 10em; padding-bottom: 10em;
+}
+
+
+
+.profile {
+}
+
+
+.profile img {
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+
+
+@media (min-width: 768px) {
+.navbar-social li {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+}
+
+.navbar {
+   margin-bottom: 0px;
+}
+
+#mc_embed_signup .mc-field-group input {
+  color: #888;	
+}
