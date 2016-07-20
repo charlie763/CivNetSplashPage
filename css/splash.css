@@ -68,6 +68,7 @@ html, body{ height: 100%; }
 
 #press h4{
   padding-top: 3em;
+  text-align: left;
 }
 
 #press img {
@@ -132,6 +133,7 @@ html, body{ height: 100%; }
 
 #press .embed-container {
   padding-bottom: 166px;
+  background-color: #111;
 }
 
 
