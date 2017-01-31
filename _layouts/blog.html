@@ -1,23 +1,60 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+<div id="blog-logo" class="jumbotron section">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="container">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+     <div class="row">
+
+        <div class="col-md-8 col-md-offset-2">
+
+           <img src="/images/logo-white-on-blue.png" style="width: 100%;">
+
+          <h2>Community in Action</h2>
+
+         </div>
+
+      </div>
+
+  </div>
 
 </div>
+
+<main class="page-content blog-content" aria-label="Content">
+  <div class="wrapper">
+
+    <div class="home">
+
+      <h1 class="page-heading">Posts</h1>
+      
+      {{ content }}
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; CivNet 2017</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </footer>
+  </div>
+</main>
