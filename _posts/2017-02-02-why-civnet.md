@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why CivNet? Why Now?"
-date: 2017-02-02 16:17:59 -0700
+date: 2017-02-01 16:17:59 -0700
 author: Charlie Wisoff
 ---
 <!-- Can use Markdown below -->
