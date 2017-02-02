@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why CivNet? Why Now?"
-date: 2017-02-02 14:17:59 -0700
+date: 2017-02-02 16:17:59 -0700
 author: Charlie Wisoff
 ---
 <!-- Can use Markdown below -->
@@ -16,5 +16,3 @@ author: Charlie Wisoff
 
 <p>CivNet solves these problems by action-oriented network for civic and political change. We help people connect with people who care about similar issues, find opportunities to get involved, and organize to take action. Over 1,500 people in our local Albuquerque pilot signing up in the last year. Those people have created 153 community projects and taken action through CivNet 721 times. Those actions include people advocating for better bike lines, volunteering for a youth hackathon, and finding fundraising support for open primaries in New Mexico. If you're still asking yourself how you can make change, or if you want to find others to help you make change, login to <a href="https://beta.civnet.com">CivNet</a> and join the movement!</p>
 
-
->>>>>>> origin/add_jekyll
