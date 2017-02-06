@@ -6,6 +6,8 @@ author: Charlie Wisoff
 ---
 <!-- Can use Markdown below -->
 
+<img src="/images/whynow.png" class="blog_header_image">
+
 <p>In the wake of the recent election, I've noticed that a lot of people have been asking themselves, "what can I do to affect change?" Trump was elected by a populist base that rejected the establishment status quo. Activists on the left have a renewed vigor, and a number of previously inactive people are engaging in politics. So, where does CivNet fit in?</p>
 
 <p>CivNet's mission is to EMPOWER individuals to make change, to improve our democracy. The underlying problem in our democracy is that people have forgotten how to flex their democratic muscles, and the civic fabric that holds us together as a nation, as a community is wearing thin.</p>
