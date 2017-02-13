@@ -5,6 +5,8 @@ date: 2017-02-03 8:17:59 -0700
 author: Charlie Wisoff
 ---
 
+<img src="/images/civnet_vs_facebook.png" class="blog_header_image2">
+
 <p>A question we often get is, "why use CivNet when there are so many other platforms out there?" Today, I want to talk in particular about social media. I'll focus on Facebook, but most of the comparisons apply more broadly.</p>
 
 <p>There are two fundamental, philosophyical differences between CivNet and Facebook. First, CivNet believes that people who engage in democracy deserve an equitable chance to be heard. Second, we believe that siloed channels of information harm democracy.</p>
