@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Find New People Working on Your Community Issues"
+title: "Feature - Find New People Working on Your Community Issues"
 date: 2016-12-15 16:17:59 -0700
 author: Charlie Wisoff
 ---

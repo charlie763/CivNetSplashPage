@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Email Integration Feature"
+title: "Feature - Email Integration"
 date: 2017-01-31 16:17:59 -0700
 author: Charlie Wisoff
 ---

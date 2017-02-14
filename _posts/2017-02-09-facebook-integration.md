@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Facebook Integration Feature"
+title: "Feature - Facebook Integration"
 date: 2017-02-09 08:00:59 -0700
 author: Charlie Wisoff
 ---

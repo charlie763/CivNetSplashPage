@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Attach Resources to Your Posts"
+title: "Feature - Attach Resources to Your Posts"
 date: 2017-01-15 16:17:59 -0700
 author: Charlie Wisoff
 ---
