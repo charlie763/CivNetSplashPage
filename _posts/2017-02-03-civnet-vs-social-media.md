@@ -9,7 +9,7 @@ author: Charlie Wisoff
 
 <p>A question we often get is, "why use CivNet when there are so many other platforms out there?" Today, I want to talk in particular about social media. I'll focus on Facebook, but most of the comparisons apply more broadly.</p>
 
-<p>There are two fundamental, philosophyical differences between CivNet and Facebook. First, CivNet believes that people who engage in democracy deserve an equitable chance to be heard. Second, we believe that siloed channels of information harm democracy.</p>
+<p>There are two fundamental, philosophical differences between CivNet and Facebook. First, CivNet believes that people who engage in democracy deserve an equitable chance to be heard. Second, we believe that siloed channels of information harm democracy.</p>
 
 <p>These philosophical tenents have far reaching implications for our functionality. With regards to equitable engagement, Facebook is "pay to play". Unless you have a budget to promote your pages, or you're able to create viral content, the reach of your message is limited. It's estimated that <a href="https://blog.hubspot.com/marketing/facebook-declining-organic-reach#sm.000c7re6k1bvid1cuss2qa4pehm5v">only 2-16% of people who liked your page will actually see your content</a>. This tends to advantage organizations with money and/or a marketing team. It does not serve the interests of democracy. Money should not influence your ability to engage other people. With CivNet, on the other hand, people who join your community Project will always see your content unless they unsubscribe. </p> 
 
