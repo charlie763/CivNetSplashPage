@@ -5,7 +5,7 @@ date: 2017-04-13 8:17:59 -0700
 author: Charlie Wisoff
 ---
 
-<p>CivNet is now offering extra promotional, organzing, and technical support for community projects that want to use CivNet for their online communication and organizing. Our goal is to set you up for success when you use CivNet!</p>
+<p>CivNet is now offering extra promotional, organzing, and technical support for community projects that want to use CivNet for their online communication and organizing. Our goal is to set you up for success when you use CivNet! Contact us at help@civnet.com if you're interested.</p>
 
 <p>CivNet <i>promotional support</i> is one of the biggest benefits for community partners. We will pay for Facebook ads for the content you create through CivNet including new Projects, reaching milestones on Projects, and new Calls to Action. We'll also film a short promotional video about your Project and pay for the Facebook promotion. These videos get 1-2K views. For example, check out the video we did for the <a href="https://beta.civnet.com/projects/179">Bees + Seeds Festival</a>:</p>
 
