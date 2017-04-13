@@ -23,7 +23,8 @@
 	font-style: italic;
 }
 .blog_header_image{
-  width: 450px;
+  max-width: 450px;
+  max-height: 250px;
   margin-left: 5px;
   margin-bottom: 3px; 
   margin-top: 3px;
