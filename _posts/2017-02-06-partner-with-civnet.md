@@ -13,8 +13,10 @@ author: Charlie Wisoff
 
 <p>In addition to <i>promotional support</i>, we offer <i>organizing</i> and <i>technical support</i>. This means we're be available to connect you with community partners and volunteers and to answer any questions your project members have about using CivNet.</p>
 
-<p>All we ask is that you use CivNet! The more you use CivNet the more support we can offer. <!-- And, if for some reason the parntership doesn't work out, let us know why so we can improve the CivNet platform. --></p>
 <br>
+
+<h3>What we expect from Partners</h3>
+<p>Primarily we ask is that you use CivNet! The more you use CivNet the more support we can offer. We also ask that you give us feedback about what is and isn't working for you on CivNet so we can make the platform better.</p>
 
 <h3>Is my project a good fit for CivNet?</h3>
 <p>We've learned a lot about which types of projects and groups tend to find value in CivNet. Generally some combination of the following characteristics make for a good fit:
@@ -23,6 +25,6 @@ author: Charlie Wisoff
 		<li>You're looking to expand beyond your current constituent base, either by recruiting new people or collaborating with other groups.</li>
 		<li>You're interested in using CivNet not only to recruit and communicate with new constituents but also to communicate with people you already work with.</li>
 		<li><i>Collaborating and networking among groups of groups</i> is vital to your success.</li>
-		<li>There is leadership in your project that is interested in learning a new technolgoy and driving adoption among your membership.</li>
+		<li>There is leadership in your project that is interested in learning a new technology and driving adoption among your membership.</li>
 	</ul>
 If these characteristics don't describe your group or project that doesn't mean CivNet isn't for you! There are other factors that matter, and we're still learning what does and doesn't work.</p>
