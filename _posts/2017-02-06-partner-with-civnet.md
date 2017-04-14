@@ -13,8 +13,6 @@ author: Charlie Wisoff
 
 <p>In addition to <i>promotional support</i>, we offer <i>organizing</i> and <i>technical support</i>. This means we're be available to connect you with community partners and volunteers and to answer any questions your project members have about using CivNet.</p>
 
-<br>
-
 <h3>What we expect from Partners</h3>
 <p>Primarily we ask is that you use CivNet! The more you use CivNet the more support we can offer. We also ask that you give us feedback about what is and isn't working for you on CivNet so we can make the platform better.</p>
 
