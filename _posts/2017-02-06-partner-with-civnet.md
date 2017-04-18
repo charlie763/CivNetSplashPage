@@ -14,7 +14,7 @@ author: Charlie Wisoff
 <p>In addition to <i>promotional support</i>, we offer <i>organizing</i> and <i>technical support</i>. This means we're be available to connect you with community partners and volunteers and to answer any questions your project members have about using CivNet.</p>
 
 <h3 class="blog_header_new_section">What we expect from Partners</h3>
-<p>Primarily we ask is that you use CivNet! The more you use CivNet the more support we can offer. We also ask that you give us feedback about what is and isn't working for you on CivNet so we can make the platform better.</p>
+<p>Primarily we ask that you use CivNet! The more you use CivNet the more support we can offer. We also ask that you give us feedback about what is and isn't working for you on CivNet so we can make the platform better.</p>
 
 <h3 class="blog_header_new_section">Is my project a good fit for CivNet?</h3>
 <p>We've learned a lot about which types of projects and groups tend to find value in CivNet. Generally some combination of the following characteristics make for a good fit:
