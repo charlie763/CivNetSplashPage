@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Defining Civic Tech Success: Does Democracy Have a Chance if I can't Put a Mustache on My Friend's Face to Save it?"
-date: 2017-04-21 8:17:59 -0700
+date: 2017-04-24 8:17:59 -0700
 author: Charlie Wisoff
 ---
 <h3 class="blog_header_new_section">Democracy, the Crazy Uncle We Don't Like to Talk About</h3>
