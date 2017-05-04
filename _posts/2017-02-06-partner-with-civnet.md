@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Parnter Projects: Free Promotion and Support"
+title: "Partner Projects: Free Promotion and Support"
 date: 2017-04-13 8:17:59 -0700
 author: Charlie Wisoff
 ---
