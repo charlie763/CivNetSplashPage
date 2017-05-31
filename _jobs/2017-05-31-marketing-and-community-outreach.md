@@ -5,8 +5,7 @@ date: 2017-05-31 8:17:59 -0700
 ---
 <br>
 <p><strong>Position Summary:</strong> We’re looking for someone who is part community organizer, part social
-media/media guru, part hustler. You’ll be working for CivNet, a new online platform for
-community action that helps people connect with like-minded individuals, find opportunities to
+media/media guru, part hustler. You’ll be working for <a href="www.civnet.com">CivNet</a>, a new online platform for community action that helps people connect with like-minded individuals, find opportunities to
 get involved, and organize community projects. CivNet is a startup. That means you need to be
 able to thrive in a work environment where change occurs rapidly, you need to make decisions
 under conditions of uncertainty, and you’re given a lot of autonomy to set your own work
@@ -49,7 +48,7 @@ users, and understanding your interactions with those users is vital to building
 <p>
   <strong>Commitment and Pay:</strong> CivNet is interested in hiring someone that, if it is a good fit, will stay on long term and receive a
 raise upon completion of subsequent funding rounds. Pay the first year will be $20-40K plus
-equity depending on qualifications. Equity is part ownership of CivNet. Learn more here. CivNet
+equity depending on qualifications. Equity is part ownership of CivNet. Learn more <a href="https://www.themuse.com/advice/getting-startup-equity-everything-you-need-to-know">here</a>. CivNet
 recently got accepted into a mission-driven accelerator program. We are happy to share more
 details about CivNet’s business during interviews, since taking equity in CivNet is like investing
 in our company.
