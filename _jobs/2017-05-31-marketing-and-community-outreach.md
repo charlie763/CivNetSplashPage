@@ -2,7 +2,6 @@
 layout: post
 title: "Marketing and Community Outreach"
 date: 2017-05-31 8:17:59 -0700
-author: Charlie Wisoff
 ---
 <br>
 <p><strong>Position Summary:</strong> We’re looking for someone who is part community organizer, part social
