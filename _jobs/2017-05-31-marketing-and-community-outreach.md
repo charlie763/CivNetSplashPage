@@ -5,7 +5,7 @@ date: 2017-05-31 8:17:59 -0700
 ---
 <br>
 <p><strong>Position Summary:</strong> We’re looking for someone who is part community organizer, part social
-media/media guru, part hustler. You’ll be working for <a href="www.civnet.com">CivNet</a>, a new online platform for community action that helps people connect with like-minded individuals, find opportunities to
+media/media guru, part hustler. You’ll be working for <a href="/">CivNet</a>, a new online platform for community action that helps people connect with like-minded individuals, find opportunities to
 get involved, and organize community projects. CivNet is a startup. That means you need to be
 able to thrive in a work environment where change occurs rapidly, you need to make decisions
 under conditions of uncertainty, and you’re given a lot of autonomy to set your own work
