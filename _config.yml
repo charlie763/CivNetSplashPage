@@ -38,3 +38,7 @@ sass:
   sass_dir: _sass
 
 permalink: /blog/:title.html
+collections:
+  jobs:
+    output: true
+    permalink: /:collection/:title
