@@ -22,6 +22,14 @@
 .blog_italic{
 	font-style: italic;
 }
+
+.blog_divider {
+  text-align: center;
+  color: grey;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
 .blog_header_image{
   max-width: 450px;
   max-height: 200px;
@@ -60,6 +68,32 @@
 
 .blog_header_new_section{
   margin-top:30px;
+}
+
+.blog_image {
+  max-width: 450px;
+  max-height: 300px;
+  }
+
+.blog_image_container_left {
+  margin-right: 20px; 
+  margin-bottom: 15px; 
+  margin-top: 10px; 
+  float: left;
+  }
+
+.blog_image_container_right {
+  margin-left: 20px; 
+  margin-bottom: 15px; 
+  margin-top: 10px; 
+  float: right;
+  }
+
+.blog_subtitle {
+  font-size: .6em;
+  color: grey;
+  margin-bottom: -10px;
+  text-align: center;
 }
 
 .blog_quotation{
