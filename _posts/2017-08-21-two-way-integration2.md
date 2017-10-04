@@ -9,7 +9,7 @@ author: Charlie Wisoff
 <p>One of the biggest barriers we've heard to using CivNet is that people don't want ONE MORE PLATFORM to deal with. In fact, we started noticing that community project leaders often have trouble getting all their volunteers to consistently use one existing communication platform, even if it's a common one like email or Facebook. Older people might like email, whereas younger people use text and Facebook.</p>
 
 <div class="blog_image_container_right">
-	<iframe width="450" height="300" src="https://www.youtube.com/embed/0VsAJyXbk6E" frameborder="0" allowfullscreen></iframe>
+	<iframe width="450" height="300" src="https://www.youtube.com/embed/AiZ9UuCQecw" frameborder="0" allowfullscreen></iframe>
 	<p class="blog_subtitle">Two Way Integration Demo</p> 
 </div>
 
