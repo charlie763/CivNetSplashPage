@@ -40,7 +40,7 @@ author: Charlie Wisoff
 <p> Group members who prefer text can receive and reply to those messages via text, and their reply gets distributed to other group members on their preferred platform. We are launching this new pivot with email and text, and we plan to add other integrations, including Facebook Messenger and Slack, over the coming months.</p>
 
 <div class="blog_image_container_left">
-	<img src="/images/demographics.jpg" class="blog_image">
+	<img src="/images/demographics.png" class="blog_image">
 	<p class="blog_subtitle">Messaging App Usage by Age</p> 
 </div>
 
