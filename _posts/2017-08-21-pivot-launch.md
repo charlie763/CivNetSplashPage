@@ -8,7 +8,7 @@ author: Charlie Wisoff
 
 <div class="blog_image_container_right">
 	<img src="/images/tour_de_france.jpg" class="blog_image">
-	<p class="blog_subtitle">Stock Tour de France Photo</p> 
+	<p class="blog_subtitle">Me in Another Life</p> 
 </div>
 
 <p>The word “pivot” is tossed around a lot in the start-up world. As a start-up, you’re supposed to fail fast, learn quickly, and pivot when needed. Groupon is a famous example. What started as a social network for people trying to solve problems, turned into a company that sells coupons to groups. There is a sense in which pivoting is an indicator of start-up success. It’s like you’re finally taking of the training wheels, and now you’re ready to ride the Tour de France (slight exaggeration).</p>
