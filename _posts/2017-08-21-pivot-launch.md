@@ -10,7 +10,7 @@ author: Charlie Wisoff
 	<img src="/images/tour_de_france.jpg" class="blog_image">
 </div>
 
-<p>The word “pivot” is tossed around a lot in the start-up world. As a start-up, you’re supposed to fail fast, learn quickly, and pivot when needed. Groupon is a famous example. What started as a social network for people trying to solve problems, turned into a company that sells coupons to groups. There is a sense in which pivoting is an indicator of start-up success. It’s like you’re finally taking of the training wheels, and now you’re ready to ride the Tour de France.</p>
+<p>The word “pivot” is tossed around a lot in the start-up world. As a start-up, you’re supposed to fail fast, learn quickly, and pivot when needed. Groupon is a famous example. What started as a social network for people trying to solve problems, turned into a company that sells coupons to groups. There is a sense in which pivoting is an indicator of start-up success. It’s like you’re finally taking of the training wheels, and now you’re ready to ride the Tour de France (slight exaggeration).</p>
 
 <p>I’m not sure that it’s really possible to know what it means to pivot until you experience it; what it’s like to work to do one thing for two years and then decide, “let’s do this other thing.” It’s not like CivNet is going from a platform for social change to selling people coupons. But we are changing. It’s scary. It’s exciting. To explain how it feels, I need to explain how we got here.
 </p>
