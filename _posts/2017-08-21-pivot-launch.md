@@ -8,6 +8,7 @@ author: Charlie Wisoff
 
 <div class="blog_image_container_right">
 	<img src="/images/tour_de_france.jpg" class="blog_image">
+	<p class="blog_subtitle">Stock Tour de France Photo</p> 
 </div>
 
 <p>The word “pivot” is tossed around a lot in the start-up world. As a start-up, you’re supposed to fail fast, learn quickly, and pivot when needed. Groupon is a famous example. What started as a social network for people trying to solve problems, turned into a company that sells coupons to groups. There is a sense in which pivoting is an indicator of start-up success. It’s like you’re finally taking of the training wheels, and now you’re ready to ride the Tour de France (slight exaggeration).</p>
@@ -35,9 +36,7 @@ author: Charlie Wisoff
 	<p class="blog_subtitle">Demo</p> 
 </div>
 
-<p>To solve for this need, CivNet is pivoting. We are pivoting away from a network-oriented platform towards a distributed communications tool for small, informal groups. The new CivNet helps civic groups meet their members where they are (digitally). Group members can send out a message via email that gets distributed to other group members on their preferred platform. We’ve found this is very useful to older people and people averse to adopting new platforms.</p>
- 
-<p> Group members who prefer text can receive and reply to those messages via text, and their reply gets distributed to other group members on their preferred platform. We are launching this new pivot with email and text, and we plan to add other integrations, including Facebook Messenger and Slack, over the coming months.</p>
+<p>To solve for this need, CivNet is pivoting. We are pivoting away from a network-oriented platform towards a distributed communications tool for small, informal groups. The new CivNet helps civic groups meet their members where they are (digitally). Group members can send out a message via email that gets distributed to other group members on their preferred platform. Group members who prefer text can receive and reply to those messages via text, and their reply gets distributed to other group members on their preferred platform. We are launching this new pivot with email and text, and we plan to add other integrations, including Facebook Messenger and Slack, over the coming months.</p>
 
 <div class="blog_image_container_left">
 	<img src="/images/demographics.png" class="blog_image">
