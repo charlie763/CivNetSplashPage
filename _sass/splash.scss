@@ -1,20 +1,17 @@
 html, body{ height: 100%; }
-
-
-#splash { color: #888; background-color: white; }
+#splash { color: #888; background-color: #e1f6fb; }
 #splash a { 
   color: #888; 
   display: inline-block;
   border: 1px solid #009ec1;
   padding: 0.5em;
   margin: 1em;
+  font-weight: 300;
 }
-
 #splash a:link,
 #splash a:visited {
   text-decoration: none;
 }
-
 #splash a:hover,
 #splash a:active {
   text-decoration: none;
@@ -30,102 +27,76 @@ html, body{ height: 100%; }
   font-weight: lighter;
 }
 
-#splash .glyphicon {
-  font-size: 30px;
+#splash {
+  i {
+    font-size: 27px;
+    position: absolute;
+    color: #03A2C6;
+    top: 40px;
+    left: 45px;
+    width: 28px;
+    @media (min-width: 550px) {
+      top: 50px;
+      left: 55px;
+      font-size: 32px;
+    }
+  }
 }
-
-#splash img { margin-left: 11%; margin-bottom: 2em;}
-
-#intro {
-  background-color: #f0f0f0;
+#splash {
+  .profile-overlap-logo {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    width: 28px;
+    @media (min-width: 550px) {
+      top: 45px;
+      left: 40px;
+      width: 34px;
+    }
+  }
 }
-#how {
-  background-color: #7d7d7d;
- color: white;}
+#splash img { margin-bottom: 2em;}
 
-#how a { color: #23527c; }
+#how-two {
+  @media (min-width: 550px) {
+    padding-right: 10%;
+  }
+}
 #team {
-  background-color: #00b8da; color: white;
   text-align: center;
 }
-
 
 #more {
   background-color: #f0f0f0;
 }
 
-#press {
-  background-color: #000000;
-  text-align: center;
-  color: white;
-}
-
-#press h2 {
-  padding-bottom: 3em;	
-  color: #009ec1;
-  font-weight: lighter;
-}
-
-#press h4{
-  padding-top: 3em;
-  text-align: left;
-}
-
-#press img {
-  padding-top: 1em;
-}
-
-#traction {
-  background-color: #7d7d7d;
- color: white;}
-
-
-#traction a { color: #23527c; }
-
-
 .panetron .pt-section {
   padding-top: 10em;
 }
 
-
-
 #faq {
   background-color: white;
 }
-
-
-
-
-
-
-
-
 .panetron {
-  min-height: 100%;
   margin-bottom: -5em;
-  padding-top: 10em; padding-bottom: 10em;
+  @media (min-width: 550px) {
+    padding-top: 9em; padding-bottom: 9em;
+  }
+  background-color: #e1f7fc;
 }
-
-
-
 .profile {
+  display: inline-block;
+  position: relative
 }
-
-
 .profile img {
-  width: 50%;
-  border-radius: 50%;
+  width: 49px;
+  border-radius: 52%;
   display: block;
-  margin: auto;
+  margin: 10px;
+  @media (min-width: 550px) {
+    width: 65px;
+  }
 }
-
-
-
-
-
-
-
-
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 
@@ -136,20 +107,112 @@ html, body{ height: 100%; }
   background-color: #111;
 }
 
-
-
-
 @media (min-width: 768px) {
-.navbar-social li {
+  .navbar-social li {
     padding-top: 15px;
     padding-right: 15px;
+  }
 }
+.video-wrapper {
+  width: 80%;
+  display: inline-block;
+  margin-left: 10%;
+  @media (min-width: 550px) {
+    display: inline-block;
+    width: 50%;
+    margin-left: 0px;
+  }
 }
-
+.video-right {
+  @media (min-width: 550px) {
+    float: right;
+  }
+}
+.full-screen-video {
+  .video-wrapper {
+    padding-top: 100px;
+  }
+}
+.video-text-wrapper {
+  width: 90%;
+  padding-left: 10%;
+  display: block;
+  vertical-align: top;
+  height: 450px;
+  @media (min-width: 550px) {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+  }
+}
+.video-text {
+  position: relative;
+  top: -200px;
+  left: 50px;
+  width: 70%;
+}
+.big-numbers {  
+  height: 362px;
+  width: 101px;
+  opacity: 0.48;
+  &.one {
+    color: #EA8C2E;  
+  }
+  &.two {
+    color: #6BAA2E;
+  }
+  &.three {
+    color: #296279;
+  }
+  font-family: "Caveat Brush";
+  font-size: 288px;
+  line-height: 362px;
+}
+.splash-video {
+  width: 100%;
+  display: inline-block;
+  max-height: 500px
+}
+.groups-img-wrapper {
+  padding: 0px 15px;
+  margin: -80px 0px 80px 0px;
+}
 .navbar {
-   margin-bottom: 0px;
+  margin-bottom: 0px;
 }
-
+.right {
+  text-align: right;
+}
+.navbar-default {
+  background-color: white;
+}
+.jumbotron h1 {
+  color: black;
+  font-size: 34px;
+}
+.groups-wrapper {
+  background-color: #34758C;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  @media (min-width: 550px) {
+    margin-top: 0px;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 36px;
+  }
+  a {
+    background-color: #03A2C6;
+    color: white; 
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    margin: 1em;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
 #mc_embed_signup .mc-field-group input {
   color: #888;	
 }
