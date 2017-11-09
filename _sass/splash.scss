@@ -136,15 +136,15 @@ html, body{ height: 100%; }
   }
 }
 .video-text-wrapper {
-  width: 90%;
   padding-left: 10%;
   display: block;
   vertical-align: top;
-  height: 450px;
+  height: 540px;
   @media (min-width: 550px) {
     display: inline-block;
     width: 45%;
     height: auto;
+    width: 90%;
   }
 }
 .video-text {
