@@ -79,8 +79,10 @@ html, body{ height: 100%; }
 }
 .panetron {
   margin-bottom: -5em;
+  padding-top: 5em;
   @media (min-width: 550px) {
-    padding-top: 9em; padding-bottom: 9em;
+    padding-bottom: 9em;
+    padding-top: 9em;
   }
   background-color: #e1f7fc;
 }
