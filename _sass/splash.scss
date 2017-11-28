@@ -1,5 +1,6 @@
 html, body{ height: 100%; }
 #splash { color: #888; background-color: #e1f6fb; }
+/*
 #splash a { 
   color: #888; 
   display: inline-block;
@@ -8,6 +9,7 @@ html, body{ height: 100%; }
   margin: 1em;
   font-weight: 300;
 }
+
 #splash a:link,
 #splash a:visited {
   text-decoration: none;
@@ -17,6 +19,7 @@ html, body{ height: 100%; }
   text-decoration: none;
   color: #009ec1;
 }
+*/
 
 #splash div {
   text-align: center;
@@ -25,6 +28,29 @@ html, body{ height: 100%; }
 
 #splash h2 {
   font-weight: lighter;
+}
+
+input {
+  margin: 5px 0;
+  height: 35px;
+  padding: 5px 10px;
+  width: 90%;
+}
+
+#splash .uncollapse {
+  background-color: #03A2C6;
+  color: white; 
+  border-radius: 10px;
+  margin-top: -10px;
+  padding: 1em;
+   a {
+    display: inline-block;
+    padding: 0.5em 2em;
+    margin: 1em;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
 }
 
 #splash {
@@ -75,20 +101,23 @@ html, body{ height: 100%; }
 }
 
 #faq {
-  background-color: white;
+  background-color: #e1f7fc;
 }
+
 .panetron {
   margin-bottom: -5em;
   padding-top: 5em;
+  min-height: 90%;
   @media (min-width: 550px) {
-    padding-bottom: 9em;
-    padding-top: 9em;
+    padding-bottom: 0em;
+    padding-top: 8em;
   }
   background-color: #e1f7fc;
 }
 .profile {
   display: inline-block;
-  position: relative
+  position: relative;
+  margin-top: -5px;
 }
 .profile img {
   width: 49px;
@@ -151,6 +180,10 @@ html, body{ height: 100%; }
   top: -200px;
   left: 50px;
   width: 70%;
+  p {
+    font-size:21px;
+    font-weight:200;
+  }
 }
 .big-numbers {  
   height: 362px;
@@ -175,8 +208,8 @@ html, body{ height: 100%; }
   max-height: 500px
 }
 .groups-img-wrapper {
-  padding: 0px 15px;
-  margin: -80px 0px 80px 0px;
+  padding: 0px 0px;
+  margin: 0px 0px -10px 0px;
 }
 .navbar {
   margin-bottom: 0px;
@@ -223,4 +256,34 @@ html, body{ height: 100%; }
 }
 .twitter-follow-button {
   margin-bottom: -6px !important;
+}
+.group_image {
+  max-width: 30%;
+  margin-right: -5px;
+}
+.signup-button{
+    font-weight: 800;
+    font-size: 36px;
+  a {
+    background-color: #03A2C6;
+    color: white; 
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    margin: .5em;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+.table {
+  display: table;
+}
+
+.float-md-right {
+  @media (min-width: 550px) {
+    position: absolute;
+    right: 0;
+    margin-right: 6em;
+  }
 }

@@ -4,101 +4,333 @@ layout: home
 
 <div id="splash" class="jumbotron panetron section">
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-md-8 col-md-offset-2">
-        <h1 class="main-title">
-          Communicate with your entire group. Right now.
-        </h1>
-        <h2>
-          <a href="http://beta.civnet.com/users/new" target="_blank">Create New Group</a>
-        </h2>
-        <div class="profile">
-          <img src="/images/kristen.jpg">
-          <i class="fa fa-envelope"></i>
-        </div>
-        <div class="profile">
-          <img src="/images/sam.jpg">
-          <i class="fa fa-comment"></i>
-        </div>
-        <div class="profile">
-          <img src="/images/vanessa.jpeg">
-          <i class="fa fa-slack"></i>
-        </div>
-        <div class="profile">
-          <img src="/images/charlie.jpg">
-          <img src="/images/favicon-96x96.png" class="profile-overlap-logo">
-        </div>
+      	<div class="groups-img-wrapper">
+      		<img class="group_image" src="/images/organizers.png">
+      		<img class="group_image" src="/images/sports.png">
+      		<img class="group_image" src="/images/volunteers.png">
+    	</div>
+		<div id="accordion1" data-children=".item">
+  			<div class="item">
+	  				<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#header1" aria-expanded="true" aria-controls="header1">
+	               </a>
+  				<div id="header1" class="collapse show" role="tabpanel">
+  					<div class="profile">
+			          <img src="/images/kristen.jpg">
+			          <i class="fa fa-envelope"></i>
+			        </div>
+			        <div class="profile">
+			          <img src="/images/sam.jpg">
+			          <i class="fa fa-comment"></i>
+			        </div>
+			        <div class="profile">
+			          <img src="/images/vanessa.jpeg">
+			          <i class="fa fa-slack"></i>
+			        </div>
+			        <div class="profile">
+			          <img src="/images/charlie.jpg">
+			          <img src="/images/favicon-96x96.png" class="profile-overlap-logo">
+			        </div>
+				        <h1 class="main-title">
+				          Easy communication. From any platform.
+				        </h1>
+				</div>
+			</div>
+			<div class="item">
+			    	<h2 class="signup-button">
+			      		<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#header2" aria-expanded="false" aria-controls="header2">Test It Out</a>
+			      	</h2>
+			    <div id="header2" class="collapse" role="tabpanel">
+			      	<div class="uncollapse">
+			      		<div class="container">
+				      		<div class="row justify-content-center">
+					      		<div class="col-md-5" style="text-align: left;">
+					      			<p style="margin-bottom: 0px;">Input your contact info to join a Demo Group:</p>
+					      			<form action="https://formspree.io/charlie@civnet.com"
+									      method="POST">							    
+									    <input type="text" name="name" placeholder="First Name">
+									    <input type="email" name="email" placeholder="Email">
+									    <input type="tel" name="phone" placeholder="Phone #">
+									    <br>
+									    <input type="submit" value="Send" style="width:50%;">
+									</form>
+					      		</div>
+					      		<div class="col-md-2 align-self-center">
+					      			<br>
+					      			<h3>OR</h3>
+					      		</div>
+					      		<div class="col-md-5 align-self-center"">
+					      			<h2 class="signup-button">
+					      				<a href="http://beta.civnet.com/users/new" target="_blank" style="padding:0px;">Start Your Own Group Now</a>
+					      			</h2>
+					      		</div>
+	        				</div>
+	        			</div>
+        			</div>
+			    </div>
+			</div>
+		</div>
       </div>
     </div>
   </div>
 </div>
 <div id="how-one" class="jumbotron section panetron">
-  <div class="container">
-    <div class="video-text-wrapper">
-      <div class="big-numbers one">1</div>
-      <div class="video-text">
-        <h3>One Signup. No Wait</h3>
-        <p>
-          You are the only one who needs to sign up to CivNet. Your project will get a dedicated phone number and email address.
-        </p>
-      </div>
-    </div>
-    <div class="video-wrapper video-left">
-      <video src="videos/splash_vid_create.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
-    </div>
+  <div class="container table">
+  	<div class="row justify-content-center">
+	    <div class="video-text-wrapper">
+	      <div class="big-numbers one">1</div>
+	      <div class="video-text">
+	        <!-- h3>One Signup. No Wait</h3> -->
+	        <h3>Only Sign In Once</h3>
+	        <p>
+	          <!-- You are the only one who needs to sign up to CivNet.  -->Your group will get a <b>dedicated phone number and email address</b> that you and group members can use to communicate without ever signing in to CivNet.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="video-wrapper video-left">
+	      <video src="videos/splash_vid_create.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
+	    </div>
+	</div>
   </div>
 </div>
 
 <div id="how-two" class="jumbotron section panetron">
-  <div class="container">
-    <div class="video-text-wrapper video-right">
-      <div class="big-numbers two">2</div>
-      <div class="video-text">
-        <h3>Onboard everyone. On their own platform.</h3>
-        <p>
-          Add all your group members’ contact information. Group members can adjust their preferences via email or text.
-        </p>
-      </div>
-    </div>
-    <div class="video-wrapper video-right">
-      <video src="videos/splash_vid_onboard.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
-    </div>
+  <div class="container table">
+  	<div class="row">
+	    <div class="video-text-wrapper float-md-right">
+	      <div class="big-numbers two">2</div>
+	      <div class="video-text">
+	        <h3>Meet People Where They Are</h3>
+	        <p>
+	          Add your group members’ contact information. <!--Group members can adjust their preferences via email or text. --> Group members choose whether they want to communicate via email, text, or Slack.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="video-wrapper" style="margin-left: 3em;">
+	      <video src="videos/splash_vid_onboard.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
+	    </div>
+  	</div>
   </div>
 </div>
 
 <div id="how-three" class="jumbotron section panetron">
-  <div class="container">
-    <div class="video-text-wrapper">
-      <div class="big-numbers three">3</div>
-      <div class="video-text">
-        <h3>Communicate to everyone. Anywhere.</h3>
-        <p>
-          When you send a message from web, email, or text, each group member will receive it on their platform of choice.
-        </p>
-      </div>
-    </div>
-    <div class="video-wrapper video-left">
-      <video src="videos/splash_video_communicate.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
-    </div>
+  <div class="container table">
+  	<div class="row justify-content-center">
+	    <div class="video-text-wrapper">
+	      <div class="big-numbers three">3</div>
+	      <div class="video-text">
+	        <h3>Communicate With Everyone. From Anywhere.</h3>
+	        <p>
+	          When you send a message from web, email, text, or slack each group member will receive it and be able to reply on their preferred platform.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="video-wrapper video-left">
+	      <video src="videos/splash_video_communicate.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
+	    </div>
+  	</div>
   </div>
 </div>
+
+<div id= "faq" class="jumbotron section panetron">
+	<div class="container ">
+	  <div class="row justify-content-center"" data-name="FAQ">
+	    <!-- <div class="col-md-6 col-md-offset-2 profile"> -->
+	    <div class="col-md-8 col-md-offset-2">
+
+	      <h3>Questions People Ask Us</h3>
+
+	<p>Have a question that isn't answered below? Email <a href="mailto:help@civnet.com">help@civnet.com.</a></p>
+	      <div id="accordion" role="tablist" aria-multiselectable="false">
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question1">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer1" aria-expanded="true" aria-controls="answer1">
+	                 What Platforms are Integrated Through CivNet?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer1" class="collapse show" role="tabpanel" aria-labelledby="question1" data-parent="#accordion">
+	            <div class="card-body">
+	               Currently, CivNet enables group members to communicate from email, text, and Slack. We plan to add Facebook Messenger next.
+	            </div>
+	          </div>
+	        </div>
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question2">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer2" aria-expanded="false" aria-controls="answer2">
+	                 Add Members and Set Communication Preferences
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer2" class="collapse" role="tabpanel" aria-labelledby="question2">
+	            <div class="card-body">
+	               You have to be the admin of a group to add members. You can do so by clicking on the “members” tab in your group page on CivNet. People can also request to join your group by sending a message to the group's dedicated phone number or email address. Once a person is added to a group, they get a CivNet Bot message that says you have added them to your group, and the bot asks them to set their communication preferences by responding "#text", "#email" or "#both". 
+	            </div>
+	          </div>
+	        </div>
+	         <div class="card">
+	          <div class="card-header" role="tab" id="question3">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer3" aria-expanded="false" aria-controls="answer3">
+	                 What Does CivNet Cost?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer3" class="collapse" role="tabpanel" aria-labelledby="question3">
+	            <div class="card-body">
+	               CivNet is FREE! We plan to add paid premium features in the future, but all current services are and will be free unless otherwise noted.
+	            </div>
+	          </div>
+	        </div>
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question4">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer4" aria-expanded="false" aria-controls="answer4">
+	                 Are CivNet Groups Private?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer4" class="collapse" role="tabpanel" aria-labelledby="question4">
+	            <div class="card-body">
+	               <p>Yes, CivNet groups are private. Only you and your members can see your group. In the future, we may add the ability to mark your group as discoverable. Non-members still wouldn’t be able to see group membership or content, but they could search for groups by themes and request to join yours.</p> 
+
+	               <p>Currently, CivNet employs standard security protocols for a web app, such as https, to protect your private information. We do not currently have encryption for messages. We are considering adding message encryption in the future, but we may never be able to offer end-to-end encryption because we cannot control the encryption standards of integrated platforms such as email and text.</p>
+	            </div>
+	          </div>
+	        </div>
+	       <div class="card">
+	          <div class="card-header" role="tab" id="question5">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer5" aria-expanded="false" aria-controls="answer5">
+	                 How Big is an Average CivNet Group?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer5" class="collapse" role="tabpanel" aria-labelledby="question5">
+	            <div class="card-body">
+	              We suggest using CivNet with groups of 5-50 people for internal group communication. 
+	            </div>
+	          </div>
+	        </div>
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question6">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer6" aria-expanded="false" aria-controls="answer6">
+	                 How is Messaging Organized?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer6" class="collapse" role="tabpanel" aria-labelledby="question6">
+	            <div class="card-body">
+	              All CivNet messages are at the same level of hierarchy and are “reply all”. There are no comment level messages or threads. This is done primarily to accommodate text messaging. In the future we may implement the ability to search conversation by phrases or tags or to message individuals and subgroups. For now, we suggest creating separate groups for subgroups.
+	            </div>
+	          </div>
+	        </div>
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question7">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer7" aria-expanded="false" aria-controls="answer7">
+	                 Documents, Events and Other Features?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer7" class="collapse" role="tabpanel" aria-labelledby="question7">
+	            <div class="card-body">
+	              Document sending and receiving is currently only available in-site and through email communication. We plan to integrate text and slack in the near future. Events and calendars aren’t currently integrated either, but this has been asked for multiple times, and we are strongly considering adding it in the future.
+	            </div>
+	          </div>
+	        </div>
+	      <div class="card">
+	          <div class="card-header" role="tab" id="question14">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer14" aria-expanded="false" aria-controls="answer14">
+	                 What is the Meaning of Life?
+	               </a>
+	            </h4>
+	          </div>
+	          <div id="answer14" class="collapse" role="tabpanel" aria-labelledby="question14">
+	            <div class="card-body">
+	              Answers Coming Soon...
+	            </div>
+	          </div>
+	        </div>
+	    </div>
+
+	  </div>
+	</div>
+</div>
+</div>
+
 <div id="groups" class="jumbotron section panetron">
   <div class="container groups-wrapper">
-    <div class="groups-img-wrapper">
-      <img src="/images/group_types.png">
-      <img src="/images/group_types2.png">
-    </div>
+  	<div class="groups-img-wrapper">
+  		<img class="group_image" src="/images/elections.png">
+  		<img class="group_image" src="/images/events.png">
+  	</div>
+  	<br>
+
+<div id="accordion3" data-children=".item2">
+  			<div class="item2">
+	  				<a role="button" data-toggle="collapse" data-parent="#accordion3" href="#header3" aria-expanded="true" aria-controls="header3" style="background-color: #34758C; height:0px; margin:0px; padding:0px;">
+	               </a>
+  				<div id="header3" class="collapse show" role="tabpanel">
+
     <h2>Get on the same page.</h2>
     <p>Communicate across web, email, and text with your entire group.</p>
-    <h2>
-      <a href="http://beta.civnet.com/users/new" target="_blank">Sign Up</a>
-    </h2>
+    
+    </div>
+			</div>
+			<div class="item2">
+				<div id="header4" class="collapse" role="tabpanel">
+			      	<div class="uncollapse">
+			      		<div class="container">
+				      		<div class="row justify-content-center">
+					      		<div class="col-md-4" style="text-align: left;">
+					      			<p style="margin-bottom: 0px;">Input your contact info to join a Demo Group:</p>
+					      			<form action="https://formspree.io/charlie@civnet.com"
+									      method="POST">							    
+									    <input type="text" name="name" placeholder="First Name">
+									    <input type="email" name="email" placeholder="Email">
+									    <input type="tel" name="phone" placeholder="Phone #">
+									    <br>
+									    <input type="submit" value="Send" style="width:50%;">
+									</form>
+					      		</div>
+					      		<div class="col-md-1 align-self-center">
+					      			<br>
+					      			<h3>OR</h3>
+					      		</div>
+					      		<div class="col-md-4 align-self-center"">
+					      			<h2 class="signup-button">
+					      				<a href="http://beta.civnet.com/users/new" target="_blank">Start Your Own Group Now</a>
+					      			</h2>
+					      		</div>
+	        				</div>
+	        			</div>
+        			</div>
+        		</div>
+			    	<h2 class="signup-button">
+			      		<a role="button" data-toggle="collapse" data-parent="#accordion3" href="#header4" aria-expanded="false" aria-controls="header4">Test It Out</a>
+			      	</h2>
+			    
+        		</div>
+
   </div>
 </div>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="/js/localscripts.js"></script>
 
 <script src="https://use.fontawesome.com/36b74d231d.js"></script>
+
+
