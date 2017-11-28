@@ -54,13 +54,13 @@ layout: home
 			          <img src="/images/favicon-96x96.png" class="profile-overlap-logo">
 			        </div>
   					
-  					<p class="mb-3">
+  			
 				        <h1 class="main-title">
 				        
 				          Easy communication. From any platform.
 				      
 				        </h1>
-				    </p>
+				  
 				  
 				</div>
 			</div>
@@ -74,12 +74,35 @@ layout: home
 			
 			    <div id="header2" class="collapse" role="tabpanel">
 			    	
-			     <p class="mb-3">
+			    <!--  <p class="mb-3"> -->
 				      	<div class="uncollapse">
-	        				<a class="btn btn-primary" href="http://beta.civnet.com/users/new" target="_blank">Start Your Own Group Now</a>
+				      		<div class="container">
+					      		<div class="row justify-content-center">
+						      		<div class="col-md-5">
+						      			<p>Input your info to join a Demo Group:</p>
+						      			<form action="https://formspree.io/charlie@civnet.com"
+										      method="POST">
+										    <label>First Name:</label>
+										    <input type="text" name="name">
+										    <label>Email:</label>
+										    <input type="email" name="email">
+										    <label>Phone:</label>
+										    <input type="tel" name="phone">
+										    <br>
+										    <input type="submit" value="Send">
+										</form>
+						      		</div>
+						      		<div class="col-md-2">
+						      			<h2>OR</h2>
+						      		</div>
+						      		<div class="col-md-5">
+						      		<a href="http://beta.civnet.com/users/new" target="_blank">Start Your Own Group Now</a>
+						      		</div>
+		        				</div>
+		        			</div>
 	        			</div>
-	        		
-	        	 <p class="mb-3">
+	        	<!-- 	
+	        	 <p class="mb-3"> -->
 			    </div>
 			</div>
 			
@@ -93,53 +116,59 @@ layout: home
 </div>
 <div id="how-one" class="jumbotron section panetron">
   <div class="container table">
-    <div class="video-text-wrapper">
-      <div class="big-numbers one">1</div>
-      <div class="video-text">
-        <!-- h3>One Signup. No Wait</h3> -->
-        <h3>Only Sign In Once</h3>
-        <p>
-          <!-- You are the only one who needs to sign up to CivNet.  -->Your group will get a <b>dedicated phone number and email address</b> that you and group members can use to communicate without ever signing in to CivNet.
-        </p>
-      </div>
-    </div>
-    <div class="video-wrapper video-left">
-      <video src="videos/splash_vid_create.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
-    </div>
+  	<div class="row justify-content-center">
+	    <div class="video-text-wrapper">
+	      <div class="big-numbers one">1</div>
+	      <div class="video-text">
+	        <!-- h3>One Signup. No Wait</h3> -->
+	        <h3>Only Sign In Once</h3>
+	        <p>
+	          <!-- You are the only one who needs to sign up to CivNet.  -->Your group will get a <b>dedicated phone number and email address</b> that you and group members can use to communicate without ever signing in to CivNet.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="video-wrapper video-left">
+	      <video src="videos/splash_vid_create.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
+	    </div>
+	</div>
   </div>
 </div>
 
 <div id="how-two" class="jumbotron section panetron">
   <div class="container table">
-    <div class="video-text-wrapper video-right">
-      <div class="big-numbers two">2</div>
-      <div class="video-text">
-        <h3>Meet People Where They Are</h3>
-        <p>
-          Add your group members’ contact information. <!--Group members can adjust their preferences via email or text. --> Group members choose whether they want to communicate via email, text, or Slack.
-        </p>
-      </div>
-    </div>
-    <div class="video-wrapper video-right">
-      <video src="videos/splash_vid_onboard.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
-    </div>
+  	<div class="row justify-content-center">
+	    <div class="video-text-wrapper video-right">
+	      <div class="big-numbers two">2</div>
+	      <div class="video-text">
+	        <h3>Meet People Where They Are</h3>
+	        <p>
+	          Add your group members’ contact information. <!--Group members can adjust their preferences via email or text. --> Group members choose whether they want to communicate via email, text, or Slack.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="video-wrapper video-right">
+	      <video src="videos/splash_vid_onboard.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
+	    </div>
+  	</div>
   </div>
 </div>
 
 <div id="how-three" class="jumbotron section panetron">
   <div class="container table">
-    <div class="video-text-wrapper">
-      <div class="big-numbers three">3</div>
-      <div class="video-text">
-        <h3>Communicate With Everyone. From Anywhere.</h3>
-        <p>
-          When you send a message from web, email, text, or slack each group member will receive it and be able to reply on their preferred platform.
-        </p>
-      </div>
-    </div>
-    <div class="video-wrapper video-left">
-      <video src="videos/splash_video_communicate.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
-    </div>
+  	<div class="row justify-content-center">
+	    <div class="video-text-wrapper">
+	      <div class="big-numbers three">3</div>
+	      <div class="video-text">
+	        <h3>Communicate With Everyone. From Anywhere.</h3>
+	        <p>
+	          When you send a message from web, email, text, or slack each group member will receive it and be able to reply on their preferred platform.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="video-wrapper video-left">
+	      <video src="videos/splash_video_communicate.mp4" autoplay=true loop=true muted=true class="splash-video"></video>
+	    </div>
+  	</div>
   </div>
 </div>
 
@@ -280,6 +309,7 @@ layout: home
   		<img class="group_image" src="/images/elections.png">
   		<img class="group_image" src="/images/events.png">
   	</div>
+  	<br>
     <h2>Get on the same page.</h2>
     <p>Communicate across web, email, and text with your entire group.</p>
     <h2>
