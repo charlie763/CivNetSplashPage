@@ -30,11 +30,19 @@ html, body{ height: 100%; }
   font-weight: lighter;
 }
 
+input {
+  margin: 5px 0;
+  height: 35px;
+  padding: 5px 10px;
+  width: 90%;
+}
+
 #splash .uncollapse {
   background-color: #03A2C6;
   color: white; 
   border-radius: 10px;
   margin-top: -10px;
+  padding: 1em;
    a {
     display: inline-block;
     padding: 0.5em 2em;
@@ -266,4 +274,12 @@ html, body{ height: 100%; }
 
 .table {
   display: table;
+}
+
+.float-md-right {
+  @media (min-width: 550px) {
+    position: absolute;
+    right: 0;
+    margin-right: 6em;
+  }
 }
