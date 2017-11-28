@@ -95,9 +95,15 @@ html, body{ height: 100%; }
 #faq {
   background-color: #e1f7fc;
 }
+
+#faq div {
+  align: center;
+}
+
 .panetron {
   margin-bottom: -5em;
   padding-top: 5em;
+  min-height: 90%;
   @media (min-width: 550px) {
     padding-bottom: 0em;
     padding-top: 8em;
@@ -260,4 +266,8 @@ html, body{ height: 100%; }
     font-weight: 600;
     font-size: 24px;
   }
+}
+
+.table {
+  display: table;
 }

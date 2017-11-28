@@ -4,7 +4,7 @@ layout: home
 
 <div id="splash" class="jumbotron panetron section">
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-md-8 col-md-offset-2">
       	<div class="groups-img-wrapper">
       		<img class="group_image" src="/images/organizers.png">
@@ -12,22 +12,7 @@ layout: home
       		<img class="group_image" src="/images/volunteers.png">
     	</div>
     	
-    	<div class="profile">
-          <img src="/images/kristen.jpg">
-          <i class="fa fa-envelope"></i>
-        </div>
-        <div class="profile">
-          <img src="/images/sam.jpg">
-          <i class="fa fa-comment"></i>
-        </div>
-        <div class="profile">
-          <img src="/images/vanessa.jpeg">
-          <i class="fa fa-slack"></i>
-        </div>
-        <div class="profile">
-          <img src="/images/charlie.jpg">
-          <img src="/images/favicon-96x96.png" class="profile-overlap-logo">
-        </div>
+    	
         			<!-- <div class="collapse show">
 				        <h1 class="main-title"> -->
 				          <!-- Communicate with your entire group. Right now. -->
@@ -48,10 +33,26 @@ layout: home
   			
   			<div class="item">
   				
-	  				<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#header1" aria-expanded="true" aria-controls="header1"> test
+	  				<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#header1" aria-expanded="true" aria-controls="header1">
 	               </a>
 	          
   				<div id="header1" class="collapse show" role="tabpanel">
+  					<div class="profile">
+			          <img src="/images/kristen.jpg">
+			          <i class="fa fa-envelope"></i>
+			        </div>
+			        <div class="profile">
+			          <img src="/images/sam.jpg">
+			          <i class="fa fa-comment"></i>
+			        </div>
+			        <div class="profile">
+			          <img src="/images/vanessa.jpeg">
+			          <i class="fa fa-slack"></i>
+			        </div>
+			        <div class="profile">
+			          <img src="/images/charlie.jpg">
+			          <img src="/images/favicon-96x96.png" class="profile-overlap-logo">
+			        </div>
   					
   					<p class="mb-3">
 				        <h1 class="main-title">
@@ -91,7 +92,7 @@ layout: home
   </div>
 </div>
 <div id="how-one" class="jumbotron section panetron">
-  <div class="container">
+  <div class="container table">
     <div class="video-text-wrapper">
       <div class="big-numbers one">1</div>
       <div class="video-text">
@@ -109,7 +110,7 @@ layout: home
 </div>
 
 <div id="how-two" class="jumbotron section panetron">
-  <div class="container">
+  <div class="container table">
     <div class="video-text-wrapper video-right">
       <div class="big-numbers two">2</div>
       <div class="video-text">
@@ -126,7 +127,7 @@ layout: home
 </div>
 
 <div id="how-three" class="jumbotron section panetron">
-  <div class="container">
+  <div class="container table">
     <div class="video-text-wrapper">
       <div class="big-numbers three">3</div>
       <div class="video-text">
@@ -144,205 +145,123 @@ layout: home
 
 <div id= "faq" class="jumbotron section panetron">
 	<div class="container ">
-	  <div class="row" data-name="FAQ">
+	  <div class="row justify-content-center"" data-name="FAQ">
 	    <!-- <div class="col-md-6 col-md-offset-2 profile"> -->
 	    <div class="col-md-8 col-md-offset-2">
 
 	      <h3>Questions People Ask Us</h3>
 
 	<p>Have a question that isn't answered below? Email <a href="mailto:help@civnet.com">help@civnet.com.</a></p>
-	      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question1">
-	            <h4 class="panel-title">
+	      <div id="accordion" role="tablist" aria-multiselectable="false">
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question1">
+	            <h4 class="mb-0">
 	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer1" aria-expanded="true" aria-controls="answer1">
 	                 What Platforms are Integrated Through CivNet?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="question1">
-	            <div class="panel-body">
+	          <div id="answer1" class="collapse show" role="tabpanel" aria-labelledby="question1" data-parent="#accordion">
+	            <div class="card-body">
 	               Currently, CivNet enables group members to communicate from email, text, and Slack. We plan to add Facebook Messenger next.
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question2">
-	            <h4 class="panel-title">
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question2">
+	            <h4 class="mb-0">
 	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer2" aria-expanded="false" aria-controls="answer2">
-	                 Why Won’t My Message Go Out?
+	                 Add Members and Set Communication Preferences
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question2">
-	            <div class="panel-body">
-	               The most common reason a message won’t go out is that the CivNet Bot wants you to complete a task first. For example, when a group is first created, members have to <i>set their communication preferences before they can post.</i> The CivNet Bot will ask them to set their preferences by responding "#text", "#email" or "#both". Users have to complete this task before they can send a message, otherwise we don’t know if you’re trying to talk to your group or the bot.
+	          <div id="answer2" class="collapse" role="tabpanel" aria-labelledby="question2">
+	            <div class="card-body">
+	               You have to be the admin of a group to add members. You can do so by clicking on the “members” tab in your group page on CivNet. People can also request to join your group by sending a message to the groups dedicated phone number or email address. Once a person is added to a group, they get a CivNet Bot message that says you have added them to your group, and the bot asks them to set their communication preferences by responding "#text", "#email" or "#both". 
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question3">
-	            <h4 class="panel-title">
+	         <div class="card">
+	          <div class="card-header" role="tab" id="question3">
+	            <h4 class="mb-0">
 	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer3" aria-expanded="false" aria-controls="answer3">
 	                 What Does CivNet Cost?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question3">
-	            <div class="panel-body">
+	          <div id="answer3" class="collapse" role="tabpanel" aria-labelledby="question3">
+	            <div class="card-body">
 	               CivNet is FREE! We plan to add paid premium features in the future, but all current services are and will be free unless otherwise noted.
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question4">
-	            <h4 class="panel-title">
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question4">
+	            <h4 class="mb-0">
 	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer4" aria-expanded="false" aria-controls="answer4">
 	                 Are CivNet Groups Private?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question4">
-	            <div class="panel-body">
-	               Yes, CivNet groups are private. Only you and your members can see your group. In the future, we may add the ability to mark your group as discoverable. Non-members still wouldn’t be able to see group membership or content, but they could search for groups by themes and request to join yours.
+	          <div id="answer4" class="collapse" role="tabpanel" aria-labelledby="question4">
+	            <div class="card-body">
+	               <p>Yes, CivNet groups are private. Only you and your members can see your group. In the future, we may add the ability to mark your group as discoverable. Non-members still wouldn’t be able to see group membership or content, but they could search for groups by themes and request to join yours.</p> 
+
+	               <p>Currently, CivNet employs standard security protocols, such as https, for a web app to protect your private information. We do not currently have encryption for messages. We are considering adding message encryption in the future, but we may never be able to offer end-to-end encryption because we cannot control the encryption standards of integrated platforms such as email and text.</p>
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question5">
-	            <h4 class="panel-title">
+	       <div class="card">
+	          <div class="card-header" role="tab" id="question5">
+	            <h4 class="mb-0">
 	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer5" aria-expanded="false" aria-controls="answer5">
-	                 How Do I Add Members to a CivNet Group?
-	               </a>
-	            </h4>
-	          </div>
-	          <div id="answer5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question5">
-	            <div class="panel-body">
-	               You have to be the admin of a group to add members. You can do so by clicking on the “members” tab in your group page on CivNet. People can also request to join your group by sending a message to the group's dedicated phone number or email address.
-	            </div>
-	          </div>
-	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question6">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer6" aria-expanded="false" aria-controls="answer6">
-	                 What Happens When I Add Someone to a Group?
-	               </a>
-	            </h4>
-	          </div>
-	          <div id="answer6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question6">
-	            <div class="panel-body">
-	              They get a CivNet bot message that says you have added them to your group, and the bot asks them to set their communication preferences.
-	            </div>
-	          </div>
-	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question7">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer7" aria-expanded="false" aria-controls="answer7">
-	                 How do Group Members Set Communication Preferences?
-	               </a>
-	            </h4>
-	          </div>
-	          <div id="answer7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question7">
-	            <div class="panel-body">
-	              When a group admin adds a member to a group, that person immediately gets a message from a CivNet bot asking them to set their communication preferences. Group members can also edit their preferences by editing their profile on the CivNet web app.
-	            </div>
-	          </div>
-	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question8">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer8" aria-expanded="false" aria-controls="answer8">
 	                 How Big is an Average CivNet Group?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question8">
-	            <div class="panel-body">
+	          <div id="answer5" class="collapse" role="tabpanel" aria-labelledby="question5">
+	            <div class="card-body">
 	              We suggest using CivNet with groups of 5-50 people for internal group communication. 
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question9">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer9" aria-expanded="false" aria-controls="answer9">
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question6">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer6" aria-expanded="false" aria-controls="answer6">
 	                 How is Messaging Organized?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question9">
-	            <div class="panel-body">
-	              All CivNet messages are at the same level of hierarchy. There are no comment level messages or threads. This is done primarily to accommodate text messaging. In the future we plan to implement the ability to search conversation by phrases or tags.
+	          <div id="answer6" class="collapse" role="tabpanel" aria-labelledby="question6">
+	            <div class="card-body">
+	              All CivNet messages are at the same level of hierarchy and are “reply all”. There are no comment level messages or threads. This is done primarily to accommodate text messaging. In the future we may implement the ability to search conversation by phrases or tags or to message individuals and subgroups. For now, we suggest creating separate groups for subgroups.
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question10">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer10" aria-expanded="false" aria-controls="answer10">
-	                 Can I Message Individuals or Subgroups?
+	        <div class="card">
+	          <div class="card-header" role="tab" id="question7">
+	            <h4 class="mb-0">
+	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer7" aria-expanded="false" aria-controls="answer7">
+	                 Documents, Events and Other Features?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question10">
+	          <div id="answer7" class="collapse" role="tabpanel" aria-labelledby="question7">
 	            <div class="panel-body">
-	              Currently, all CivNet messages are “reply all”. We may implement other options in the future. For now, we suggest creating separate groups for subgroups.
+	              Documents sending and receiving is currently only available in-site and through email communication. We plan to integrate text and slack in the near future. Events and calendars aren’t currently integrated either, but this has been asked for multiple times, and we are strongly considering adding it in the future.
 	            </div>
 	          </div>
 	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question11">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer11" aria-expanded="false" aria-controls="answer11">
-	               		Can I Send Documents?
-	               </a>
-	            </h4>
-	          </div>
-	          <div id="answer11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question11">
-	            <div class="panel-body">
-	              Document sending and receiving is currently only available in-site and through email communication. We plan to provide the ability to send and receive documents via text and Slack in the near future.
-	            </div>
-	          </div>
-	        </div>
-	        <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question12">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer12" aria-expanded="false" aria-controls="answer12">
-	                 What Type of Privacy Does CivNet Have?
-	               </a>
-	            </h4>
-	          </div>
-	          <div id="answer12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question12">
-	            <div class="panel-body">
-	              CivNet employs standard security protocols for a web app to protect your private information. We do not currently have encryption for messages, but we are considering adding this in the future.
-	            </div>
-	          </div>
-	        </div>
-	      	<div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question13">
-	            <h4 class="panel-title">
-	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer13" aria-expanded="false" aria-controls="answer13">
-	                Does CivNet Have Integration For Events and Calendars?
-	               </a>
-	            </h4>
-	          </div>
-	          <div id="answer13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question13">
-	            <div class="panel-body">
-	              No. But, this has been asked for multiple times, and we are strongly considering adding it in the future.
-	            </div>
-	          </div>
-	        </div>
-	      <div class="panel panel-default">
-	          <div class="panel-heading" role="tab" id="question14">
-	            <h4 class="panel-title">
+	      <div class="card">
+	          <div class="card-header" role="tab" id="question14">
+	            <h4 class="mb-0">
 	               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#answer14" aria-expanded="false" aria-controls="answer14">
 	                 What is the Meaning of Life?
 	               </a>
 	            </h4>
 	          </div>
-	          <div id="answer14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="question14">
+	          <div id="answer14" class="collapse" role="tabpanel" aria-labelledby="question14">
 	            <div class="panel-body">
 	              Answers Coming Soon...
 	            </div>

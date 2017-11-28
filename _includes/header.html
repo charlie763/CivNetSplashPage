@@ -7,7 +7,8 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<!-- OLD CODE -->
+<!-- <nav class="navbar navbar-light navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <a href="/"><img src="/images/civnet-logo-color.png" style="width: 100px; margin-top: 15px; margin-left: 10px;"></a>
@@ -18,13 +19,44 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
+    <div id="navbar" class="navbar-collapse collapse show">
       <ul id="civMenu" class="nav navbar-nav">
       </ul>
       <ul class="nav navbar-nav navbar-right navbar-social">
         <li ><a href="https://beta.civnet.com/sign_in">Log In</a></li>
         <li class="sign-up-btn"><a href="https://beta.civnet.com/users/new">Sign Up</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
+</nav> -->
+
+
+
+<nav class="navbar fixed-top navbar-light navbar-expand-lg navbar-template" style="background-color: #fdfdfd;">
+    <a class="navbar-brand" href="/"><img src="/images/civnet-logo-color.png" style="width: 100px; margin-top: 15px; margin-left: 10px;"></a>
+    <div class="d-flex flex-row order-2 order-lg-3">
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/CivNetCo/"><span class="fa fa-facebook"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://twitter.com/CivNetCo"><span class="fa fa-twitter"></span></a></li>
+            <!-- <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-youtube"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-linkedin"></span></a></li> -->
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="https://beta.civnet.com/sign_in">Log In</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://beta.civnet.com/users/new">Sign Up</a></li>
+           <!--  <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li> -->
+        </ul>
+    </div>
 </nav>
