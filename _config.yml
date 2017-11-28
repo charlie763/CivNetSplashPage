@@ -16,11 +16,7 @@
 title: CivNet
 email: civnet@civnet.com
 description: > # this means to ignore newlines until "baseurl:"
-  CivNet is a new online network for community organizing, politics, and 
-  social impact work in Albuquerque, New Mexico. Community members, non-profits, 
-  government officials use CivNet on a variety of issues including health, education, 
-  economic development, and land use. Hear thoughts on CivNet and how to make change 
-  in your community on CivNet's blog page.
+  CivNet is a group communication tool that helps people communicate across digital platforms about what they need to get done without ever leaving their preferred platform.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CivNetCo
